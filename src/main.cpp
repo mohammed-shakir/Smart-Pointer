@@ -1,10 +1,10 @@
 #include <iostream>
-#include "interface/menu.h"
+#include "myUniquePtr/myUniquePtr.h"
 
 int main()
 {
-    Menu menu;
-    menu.displayMessage();
+    MyUniquePtr myUniquePtr;
+    myUniquePtr.displayMessage();
 
     return 0;
 }

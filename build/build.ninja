@@ -49,19 +49,19 @@ cmake_ninja_workdir = H$:/code/visual_studio_code/Smart-Pointer/build/
 
 build cmake_object_order_depends_target_Smart-Pointer: phony || CMakeFiles/Smart-Pointer.dir
 
-build CMakeFiles/Smart-Pointer.dir/src/interface/menu.cpp.obj: CXX_COMPILER__Smart-Pointer_unscanned_Debug H$:/code/visual_studio_code/Smart-Pointer/src/interface/menu.cpp || cmake_object_order_depends_target_Smart-Pointer
-  DEP_FILE = CMakeFiles\Smart-Pointer.dir\src\interface\menu.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -Wall
-  INCLUDES = -IH:/code/visual_studio_code/Smart-Pointer/include
-  OBJECT_DIR = CMakeFiles\Smart-Pointer.dir
-  OBJECT_FILE_DIR = CMakeFiles\Smart-Pointer.dir\src\interface
-
 build CMakeFiles/Smart-Pointer.dir/src/main.cpp.obj: CXX_COMPILER__Smart-Pointer_unscanned_Debug H$:/code/visual_studio_code/Smart-Pointer/src/main.cpp || cmake_object_order_depends_target_Smart-Pointer
   DEP_FILE = CMakeFiles\Smart-Pointer.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++11 -Wall
   INCLUDES = -IH:/code/visual_studio_code/Smart-Pointer/include
   OBJECT_DIR = CMakeFiles\Smart-Pointer.dir
   OBJECT_FILE_DIR = CMakeFiles\Smart-Pointer.dir\src
+
+build CMakeFiles/Smart-Pointer.dir/src/myUniquePtr/myUniquePtr.cpp.obj: CXX_COMPILER__Smart-Pointer_unscanned_Debug H$:/code/visual_studio_code/Smart-Pointer/src/myUniquePtr/myUniquePtr.cpp || cmake_object_order_depends_target_Smart-Pointer
+  DEP_FILE = CMakeFiles\Smart-Pointer.dir\src\myUniquePtr\myUniquePtr.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -Wall
+  INCLUDES = -IH:/code/visual_studio_code/Smart-Pointer/include
+  OBJECT_DIR = CMakeFiles\Smart-Pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Smart-Pointer.dir\src\myUniquePtr
 
 
 # =============================================================================
@@ -71,7 +71,7 @@ build CMakeFiles/Smart-Pointer.dir/src/main.cpp.obj: CXX_COMPILER__Smart-Pointer
 #############################################
 # Link the executable Smart-Pointer.exe
 
-build Smart-Pointer.exe: CXX_EXECUTABLE_LINKER__Smart-Pointer_Debug CMakeFiles/Smart-Pointer.dir/src/interface/menu.cpp.obj CMakeFiles/Smart-Pointer.dir/src/main.cpp.obj
+build Smart-Pointer.exe: CXX_EXECUTABLE_LINKER__Smart-Pointer_Debug CMakeFiles/Smart-Pointer.dir/src/main.cpp.obj CMakeFiles/Smart-Pointer.dir/src/myUniquePtr/myUniquePtr.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Smart-Pointer.dir

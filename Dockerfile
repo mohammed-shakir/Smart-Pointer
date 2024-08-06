@@ -2,13 +2,16 @@ FROM ubuntu:22.04
 
 RUN apt-get update && apt-get install -y \
     g++ \
-    make \
     cmake
 
 WORKDIR /usr/src/Smart-Pointer
 
 COPY . .
 
-RUN mkdir build && cd build && cmake .. && make
+RUN rm -rf build && mkdir build
 
-CMD ["./build/Smart-Pointer"]
+WORKDIR /usr/src/Smart-Pointer/build
+
+RUN cmake .. && cmake --build .
+
+CMD ["./Smart-Pointer"]
