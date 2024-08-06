@@ -3,10 +3,11 @@
 Cmake
 
 ```
+mkdir build
 cd build
 cmake ..
 cmake --build .
-Smart-Pointer.exe
+./Smart-Pointer
 ```
 
 Docker
