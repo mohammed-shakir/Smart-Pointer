@@ -1,7 +1,0 @@
-# ninja log v5
-7	367	7446780839392291	CMakeFiles/Smart-Pointer.dir/src/main.cpp.obj	604ee79d6efea61b
-1	372	7446780839452327	CMakeFiles/Smart-Pointer.dir/src/interface/menu.cpp.obj	7c40f038d4869c22
-372	616	7446780841721124	Smart-Pointer.exe	357ce756228fa379
-3	375	7446794419312469	CMakeFiles/Smart-Pointer.dir/src/main.cpp.obj	604ee79d6efea61b
-9	378	7446794419491899	CMakeFiles/Smart-Pointer.dir/src/myUniquePtr/myUniquePtr.cpp.obj	9ef3af0a027485c7
-379	630	7446794421732679	Smart-Pointer.exe	7c9aba21c49eb761
