@@ -5,7 +5,7 @@ class MyUniquePtr
 {
 public:
     MyUniquePtr();
-    void displayMessage();
+    void display_message();
 };
 
 #endif

@@ -10,9 +10,10 @@ include_directories(include)
 
 # Source files
 file(GLOB_RECURSE SRC_FILES src/*.cpp)
+file(GLOB_RECURSE TPP_FILES include/*.tpp)
 
 # Add executable
-add_executable(Smart-Pointer ${SRC_FILES})
+add_executable(Smart-Pointer ${SRC_FILES} ${TPP_FILES})
 
 # Compiler flags
 target_compile_options(Smart-Pointer PRIVATE -Wall)
